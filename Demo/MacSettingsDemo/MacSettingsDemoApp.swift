@@ -65,7 +65,7 @@ struct ContentSettings: View {
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.red, .orange, .yellow, .green, .blue, .purple]), startPoint: .topLeading, endPoint: .bottomTrailing)
-                .frame(width: 300, height: 200)
+                .frame(width: 300)
             Text("Any content is possible")
                 .font(.headline)
                 .foregroundColor(colorScheme == .dark ? .black : .white)
