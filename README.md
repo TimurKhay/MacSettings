@@ -2,6 +2,12 @@
 
 Mac Settings SwiftUI View
 
+<p float="left">
+  <img src="Resources/general.png" width="300" />
+  <img src="Resources/appearance.png" width="300" />
+  <img src="Resources/content.png" width="300" />
+</p>
+
 ## Usage
 
 ```swift
