@@ -9,7 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        HStack {
+            Text("Cmd").bold()
+            Text("+")
+            Text(",").bold()
+        }
+        .frame(minWidth: 200, maxWidth: .infinity, minHeight: 200, maxHeight: .infinity)
     }
 }
 
