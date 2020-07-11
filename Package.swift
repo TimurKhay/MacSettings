@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "MacSettings", targets: ["MacSettings"])
     ],
     targets: [
-        .target(name: "MacSettings", dependencies: [], exclude: ["Demo"]),
-        .testTarget(name: "MacSettingsTests", dependencies: ["MacSettings"], exclude: ["Demo"])
+        .target(name: "MacSettings", dependencies: [], exclude: ["Demo", "Resources"]),
+        .testTarget(name: "MacSettingsTests", dependencies: ["MacSettings"], exclude: ["Demo", "Resources"])
     ]
 )
