@@ -17,14 +17,14 @@ struct MacSettingsDemoApp: App {
         }
         Settings {
             MacSettings {
-                MacSettingsItem(title: "Themes",
-                                image: "paintbrush",
+                MacSettingsItem(title: "General",
+                                image: "gearshape",
                                 content: Rectangle().frame(width: 700, height: 500).border(Color.green))
-                MacSettingsItem(title: "Text editing",
-                                image: "square.and.pencil",
+                MacSettingsItem(title: "Location",
+                                image: "location",
                                 content: Rectangle().frame(width: 500, height: 600).border(Color.green))
-                MacSettingsItem(title: "Key bindings",
-                                image: "keyboard",
+                MacSettingsItem(title: "Cloud",
+                                image: "cloud",
                                 content: Rectangle().frame(width: 400, height: 400).border(Color.green))
             }
         }
