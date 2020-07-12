@@ -4,15 +4,11 @@ Mac Settings SwiftUI View
 
 ## Example
 
-<center>
-<img src="Resources/general.png"/>
-</center>
-<center>
-<img src="Resources/appearance.png"/>
-</center>
-<center>
-<img src="Resources/content.png"/>
-</center>
+<p align="middle">
+  <img src="Resources/general.png" width="32%" />
+  <img src="Resources/appearance.png" width="32%" /> 
+  <img src="Resources/content.png" width="32%" />
+</p>
 
 ## Usage
 
@@ -32,18 +28,18 @@ struct MainApp: App {
                 MacSettingsItem(title: "General",
                                 image: "gearshape",
                                 content: generalSettings)
-                MacSettingsItem(title: "Location",
-                                image: "location",
-                                content: locationSettings)
-                MacSettingsItem(title: "Cloud",
-                                image: "cloud",
-                                content: cloudSettings)
+                MacSettingsItem(title: "Appearance",
+                                image: "flame",
+                                content: appearanceSettings)
+                MacSettingsItem(title: "Content",
+                                image: "heart",
+                                content: contentSettings)
             }
         }
     }
     
     var generalSettings: some View { ... }
-    var locationSettings: some View { ... }
-    var cloudSettings: some View { ... }
+    var appearanceSettings: some View { ... }
+    var contentSettings: some View { ... }
 }
 ```
