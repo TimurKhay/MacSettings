@@ -4,19 +4,9 @@ Mac Settings SwiftUI View
 
 ## Example
 
-<p align="center">>
+<p align="center">
 <img src="Resources/settings.gif"/>
 </p>
-<center>
-<img src="Resources/general.png"/>
-</center>
-<center>
-<img src="Resources/appearance.png"/>
-</center>
-<center>
-<img src="Resources/content.png"/>
-</center>
-
 
 ## Usage
 
