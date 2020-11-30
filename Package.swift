@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "MacSettings",
     platforms: [
-        .macOS(.v10_16)
+        .macOS(.v11)
     ],
     products: [
         .library(name: "MacSettings", targets: ["MacSettings"])
