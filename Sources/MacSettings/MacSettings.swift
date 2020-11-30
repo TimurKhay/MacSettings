@@ -62,7 +62,6 @@ public struct MacSettings: View {
         .preferenceFromGeometry(key: MaxContentWidthKey.self, transform: { $0.size.width }, onChange: $maxContentWidth)
         .toolbar { toolbar }
         .navigationTitle(items[selected].title)
-        // Q: need to disable expand mac button
         .frame(minWidth: width, maxWidth: width, minHeight: height(index: selected), maxHeight: height(index: selected))
     }
 
